@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Job Application</h1>
+    <form>
+        <label for="ApplicantNameid">Enter your Name</label>
+        <br />
+        <input type="text" name="ApplicantName" id="ApplicantNameid">
+        <br>
+        <br>
+        <label for="ApplicantEmailid">Enter your Email</label>
+        <br />
+        <input type="text" name="ApplicantEmail" id="ApplicantEmailid">
+
+        <br>
+        <br>
+        <label for="ApplicantPhoneNOid">Enter your Phone Number</label>
+        <br />
+        <input type="text" name="ApplicantPhoneNO" id="ApplicantPhoneNOid">
+
+        <br>
+        <br>
+        <label for="ApplicantResumeId">Upload your resume</label>
+        <br />
+        <input type="file" name="ApplicantResume" id="ApplicantResumeId">
+
+        <br>
+        <br>
+        <label for="ApplicantExp_Id">your Experiance</label>
+        <br />
+        <input type="number" name="ApplicantExp" id="ApplicantExp_Id">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Skills:</legend>
+            <br>
+            <label for="C++_id">C++</label>
+            <input type="checkbox" value="C++" id="C++_id">
+            <br />
+            <br>
+            <label for="Python_id">Python</label>
+            <input type="checkbox" value="Python" id="Pyhton_id">
+            <br />
+            <br>
+            <label for="Java_id">Java</label>
+            <input type="checkbox" value="Java" id="Java_id">
+            <br />
+        </fieldset>
+        <br>
+        <label for="ApplicantEdu_id">Highest Education</label>
+        <br>
+        <select name="Education" id="ApplicantEdu_id">
+            <option value="Post Graduate">Post Graduate</option>
+            <option value="Graduate">Graduate</option>
+            <option value="High School">High School</option>
+        </select>
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>Availbility</legend>
+            <label for="Full_id">Full Time</label>
+            <br />
+            <input type="radio" name="ApplicantAvail" id="Full_id" value="Full Time">
+            <br>
+            <br>
+            <label for="Part_id">Part Time</label>
+            <br />
+            <input type="radio" name="ApplicantAvail" id="Part_id" value="Part Time">
+
+        </fieldset>
+
+        <br>
+        <br>
+        <label for="Commnet_Id">Additional Comments</label>
+        <br />
+        <textarea name="CommnetArea" id="Commnet_Id" cols="50" rows="5"></textarea>
+
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
